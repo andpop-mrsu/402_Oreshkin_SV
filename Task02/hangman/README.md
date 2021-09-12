@@ -22,7 +22,7 @@
 
 ### Инструкция по установке и запуску 
 
-## Из Github:
+### Из Github:
 
 * Склонировать проект на локальную машину;
 * Установить composer, если он отсутствует;
@@ -31,13 +31,13 @@
 * Перейти в каталог bin;
 * запустить файл hangman.bat.
 
-## Из Packagist:
+### Из Packagist:
 
 * Установить composer, если он отсутствует;
 * Перейти в папку, где будет находиться проект после его клонирования;
-* Выполнить в командной строке: `composer require /hangman`;
+* Выполнить в командной строке: `composer require sergeyoreshkin/hangman`;
 * Перейти в каталог vendor/bin;
 * Запустить файл hangman.bat.
 
-## Ссылка на пакет Packagist:
-
+### Ссылка на пакет Packagist:
+https://packagist.org/packages/sergeyoreshkin/hangman
