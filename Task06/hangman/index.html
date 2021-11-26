@@ -19,7 +19,7 @@
                 <div id="greeting" class="greeting">
                     <form action="">
                         <label for="name">Имя игрока:</label>
-                        <input type="text" id="name" name="name">
+                        <input type="text" id="name" name="name" onkeydown = "if (event.keyCode == 13) document.getElementById('nextInfo').click()">
                         <input type="button" id="nextInfo" style = "buttonStyle" value="Далее">
                     </form>
                 </div>
@@ -32,7 +32,7 @@
                 <div class="show-game" id="show-game">
                     <form action="">
                         <label for="getLetter">Буква:</label>
-                        <input type="text" id="getLetter" name="getLetter">
+                        <input type="text" id="getLetter" name="getLetter" onkeydown = "if (event.keyCode == 13) document.getElementById('checkLetter').click()">
                         <input type="button" id="checkLetter" value="Отправить">
                     </form>
                 </div>
