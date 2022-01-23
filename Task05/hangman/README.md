@@ -41,10 +41,10 @@
 ### Из Packagist:
 
 * Установить composer, если он отсутствует;
-* Перейти в папку, где будет находиться проект после его клонирования;
-* Выполнить в командной строке: `composer require sergeyoreshkin/hangman`;
-* Перейти в каталог vendor/bin;
-* Запустить файл hangman.bat.
+* В командной строке перейти в папку, где нужно разместить проект;
+* Выполнить в командной строке: `composer create-project sergeyoreshkin/hangman`;
+* Перейти в каталог с проектом.
+* Запустить проект.
 
 ### Ссылка на пакет Packagist:
 https://packagist.org/packages/sergeyoreshkin/hangman
