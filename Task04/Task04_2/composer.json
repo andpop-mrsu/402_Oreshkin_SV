@@ -1,0 +1,20 @@
+{
+    "name": "sergeyoreshkin/task04_2",
+    "type": "project",
+    "description": "task04_2",
+    "authors": [{
+        "name": "Sergey Oreshkin",
+        "email": "s21072000@yandex.ru"
+    }],
+    "require": {
+        "phpunit/phpunit": "^9.5.13"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "bin": [
+        "bin/run-test"
+    ]
+}
